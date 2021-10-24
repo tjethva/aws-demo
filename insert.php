@@ -25,7 +25,7 @@
 		
 		// Performing insert query execution
 		// here our table name is college
-		$sql = "INSERT INTO employee VALUES ('$first_name',
+		$sql = "INSERT INTO employee VALUES ('$empId','$first_name',
 			'$last_name','$email')";
 		
 		if(mysqli_query($conn, $sql)){
