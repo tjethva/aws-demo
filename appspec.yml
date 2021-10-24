@@ -3,8 +3,8 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-   - source: /insert.php
-    destination: /var/www/html/  
+  - source: /insert.php
+  destination: /var/www/html/  
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
